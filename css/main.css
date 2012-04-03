@@ -1,0 +1,195 @@
+html {
+	background-color: #000000;
+}
+
+body {
+	background: #fdf0f0 url('../img/bg/tree-g.gif') repeat-x left bottom;
+	margin: 4px;
+	border: 3px double #888888;
+	min-height: 500px;
+	font-family: calibri, verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a img {
+	border: 0;
+}
+
+#main {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px;
+	width: 700px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#header {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#header .col{
+	width: 135px;
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+
+#header .letter {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-size: 48px;
+}
+
+#header .bird img {
+	width: 100%;
+}
+
+#header .name {
+	font-size: 16px;
+}
+
+#header .position {
+	font-size: 12px;
+}
+
+#header .nav {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 2px;
+}
+
+#header .nav a {
+	color: #ffffff;
+}
+
+#header .nav.d {
+	background-color: #88cc77;
+}
+
+#header .nav.g {
+	background-color: #ff0000;
+}
+
+#header .nav.h {
+	background-color: #eebb55;
+}
+
+#header .nav.m {
+	background-color: #5544bb;
+}
+
+#header .nav.o {
+	background-color: #11ddff;
+}
+
+#content {
+	margin-top: 15px;
+	color: #000000;
+	padding: 1px;
+}
+
+#content.d {
+	background-color: #009900;
+}
+
+#content.g {
+	background-color: #990000;
+}
+
+#content.h {
+	background-color: #dd7711;
+}
+
+#content.m {
+	background-color: #441144;
+}
+
+#content.o {
+	background-color: #00aadd;
+}
+
+#content table.bio {
+	border: 0;
+	width: 100%;
+}
+
+#content  table.bio td {
+	background-color: #ffffff;
+}
+
+#content.d  table.bio td.label {
+	background-color: #00ff00;
+}
+
+#content.g  table.bio td.label {
+	background-color: #ff0000;
+}
+
+#content.h  table.bio td.label {
+	background-color: #ff9933;
+}
+
+#content.m  table.bio td.label {
+	background-color: #663366;
+}
+
+#content.o  table.bio td.label {
+	background-color: #11ddff;
+}
+
+#content .bio_photo {
+	padding: 10px;
+	text-align: center;
+}
+
+#content .info {
+	margin: 3px;
+	padding: 10px;
+	background: #ffffff url('../img/bg/watermark.jpg') no-repeat top center;
+}
+
+#content.d h2 {
+	color: #88cc77;
+}
+
+#content.g h2 {
+	color: #ff0000;
+}
+
+#content.h h2 {
+	color: #eebb55;
+}
+
+#content.m h2 {
+	color: #5544bb;
+}
+
+#content.o h2 {
+	color: #00aadd;
+}
+
+#content h3 {
+	color: #000000;
+}
+
+#content table.pictures th {
+	background-color: #aa0000;
+	color: #fefefe;
+}
+
+#content table.pictures td {
+	background-color: #dd3333;
+	text-align: center;
+}
